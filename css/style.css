@@ -1,0 +1,447 @@
+@import "./Normalize.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  background-color: white;
+  margin: auto;
+}
+
+.baner {
+  background-color: #d9e1e6;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+
+.banerContainer {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.baner .banerContainer {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Lato", AdobeInvisFont, MyriadPro-Regular, sans-serif;
+  font-size: 10px;
+  color: #868f93;
+  font-weight: 400;
+}
+
+.baner span {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 97px;
+  border-bottom: 1px solid#e1e1e1;
+  margin: auto;
+  line-height: 97px;
+}
+
+.logoContainer {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.but1 {
+  height: 45px;
+  width: 129px;
+  background-color: rgba(36, 107, 185, 0);
+  border: 2px solid #ded3aa;
+  font-size: 12px;
+  color: #111111;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav {
+  height: 71px;
+  border-bottom: 1px solid#e1e1e1;
+  line-height: 71px;
+}
+
+.currencySelect {
+  display: flex;
+  align-items: center;
+  width: 129px;
+  height: 45px;
+}
+
+.usd {
+  padding-left: 9px;
+  font-size: 12px;
+  border: none;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.menuHeader {
+  display: flex;
+  width: 545px;
+  justify-content: space-between;
+}
+
+.menuList {
+  list-style: none;
+}
+
+.menuLink {
+  text-decoration: none;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #111111;
+  font-weight: 400;
+  text-align: center;
+}
+
+.favorites {
+  width: 64px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+}
+.favoritBut {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search {
+  height: 26px;
+  border-right-style: dotted;
+  padding-left: 11px;
+  margin-right: 13px;
+  border-color: #e1e1e1;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14px;
+  height: 13px;
+  cursor: pointer;
+  width: 64px;
+  height: 71px;
+}
+
+.burgerList {
+  width: 14px;
+  height: 2px;
+  background-color: black;
+  margin-top: 2px;
+}
+
+.mainContainer {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 47px;
+  padding-bottom: 99px;
+}
+
+.bigImg {
+  width: 658px;
+  height: 684px;
+  background-color: #e1e1e1;
+}
+
+.rowImg {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallImg {
+  width: 148px;
+  height: 171px;
+  background-color: #efefef;
+  border: 1px solid #e1e1e1;
+}
+
+.leftPart {
+  width: 462px;
+}
+
+.basicInfo {
+  height: 172px;
+  margin-bottom: 27px;
+}
+
+.goBackBut {
+  font-size: 14px;
+  /* line-height: 30px; */
+  padding-top: 13px;
+  color: #555555;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: white;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.goBackBut span {
+  color: #68899a;
+}
+
+.productName {
+  font-size: 24px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  margin-bottom: 17px;
+  font-weight: 700;
+}
+
+.review {
+  font-size: 14px;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.review p {
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #555555;
+  font-weight: 300;
+}
+
+.review button {
+  padding-left: 8px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #555555;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  text-decoration: underline;
+  padding-top: 4px;
+  font-weight: 400;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 24px;
+  color: #68899a;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 700;
+}
+
+.productAvailability {
+  height: 60px;
+  font-size: 14px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  letter-spacing: 1px;
+  color: #111111;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.productInfo {
+  color: #68899a;
+}
+
+.prodDescription {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.explanations {
+  margin-bottom: 32px;
+}
+
+.explanationsList {
+  list-style: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #555555;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 300;
+}
+
+.explanationsList span {
+  font-size: 14px;
+  color: #cccccc;
+  padding-right: 10px;
+}
+
+.productSelection {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #111111;
+  margin-bottom: 38px;
+}
+
+.productSelection li {
+  display: flex;
+  flex-direction: column;
+}
+
+.productSelection li label {
+  margin-bottom: 18px;
+}
+
+.selectProduct {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  background: url("../img/selectArrow.svg");
+  background-repeat: no-repeat;
+  background-size: 9px 9px;
+  background-position: 145px center;
+  width: 169px;
+  height: 36px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 10px;
+  border: 1px solid #e1e1e1;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.selectUsd {
+  -webkit-appearance: none;
+  background: url("../img/selectArrow.svg");
+  background-repeat: no-repeat;
+  background-size: 9px 9px;
+  background-position: 40px center;
+  width: 55px;
+  height: 36px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 8px;
+  border: none;
+  color: #111111;
+  cursor: pointer;
+}
+
+.inp1 {
+  width: 71px;
+  height: 36px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 10px;
+  border: 1px solid #e1e1e1;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.resetBut {
+  margin-bottom: 36px;
+}
+
+.resetBut button {
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.addBut {
+  display: flex;
+  justify-content: space-between;
+}
+
+.but2 {
+  height: 56px;
+  width: 217px;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #111111;
+  border: 1px solid #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.but3 {
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(17, 17, 17, 255);
+  text-transform: uppercase;
+  width: 227px;
+  height: 56px;
+  background-color: rgba(17, 17, 17, 0);
+  border: 1px solid #e1e1e1;
+  color: #111111;
+  cursor: pointer;
+}
+
+.footer p a {
+  text-decoration: none;
+  font-family: "Lato", AdobeInvisFont, Tahoma, MyriadPro-Regular, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(181, 181, 181, 255);
+  color: #b5b5b5;
+}
+
+.footer {
+  border-top: 1px solid#e1e1e1;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
